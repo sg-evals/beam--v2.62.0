@@ -20,7 +20,7 @@
 // directory.
 module github.com/apache/beam/sdks/v2
 
-go 1.21.0
+go 1.23
 
 require (
 	cloud.google.com/go/bigquery v1.65.0
@@ -39,7 +39,7 @@ require (
 	github.com/docker/go-connections v0.5.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-sql-driver/mysql v1.8.1
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
 	github.com/johannesboyne/gofakes3 v0.0.0-20221110173912-32fb85c5aed6
 	github.com/lib/pq v1.10.9
@@ -61,7 +61,7 @@ require (
 	google.golang.org/api v0.212.0
 	google.golang.org/genproto v0.0.0-20241118233622-e639e219e697
 	google.golang.org/grpc v1.67.2
-	google.golang.org/protobuf v1.36.0
+	google.golang.org/protobuf v1.36.11
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 )
